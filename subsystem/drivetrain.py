@@ -1,12 +1,20 @@
 from robotpy_toolkit_7407.motors.rev_motors import SparkMax
 from commands2 import Subsystem
 from wpilib import AnalogEncoder
+from wpilib import cim
+
+# class SparkMaxConfig
+
+# class CIM():
+#     def __init__(self, can_id: int, inverted: bool = True, brushless: bool = True, config: SparkMaxConfig = None):
+#         pass
+
 
 class Drivetrain(Subsystem):
     # Motors
     def __init__(self):
         super().__init__()
-        self.facing = 0
+        self.left_cim1 = CIM(1)
         self.left_forward = SparkMax(1)
         self.left_back = SparkMax(7)
         self.right_forward = SparkMax(3)
