@@ -176,3 +176,6 @@ To integrate a branch with branch **Main**,  create a pull-request with the same
  - [WPILib Documentation](https://docs.wpilib.org/en/stable/index.html) RobotPy is just a wrapper for the WPILib C++ Code. Most of the structure remains the same.
  - [Chief Delphi](https://www.chiefdelphi.com/) Many a sensor problem have been fixed by looking here.
  - [7407 DriveCode-2021-Python](https://github.com/Choate-Robotics/7407-DriveCode-2021-Python) Worlds level code!
+
+## Special Notes
+ - In ***config.py*** change the *ESC* in the **gearbox** class based on actual usage in the robot

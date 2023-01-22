@@ -1,4 +1,3 @@
-import subsystem
 import sensors
 import wpilib
 
